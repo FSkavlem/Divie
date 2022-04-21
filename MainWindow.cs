@@ -175,6 +175,7 @@ namespace Divie
         private void Divie_Leave(object sender, EventArgs e)
         {
             //save logs, video etc if running....!!!
+            //må oppdateres
         }
         private void trackBarBrightness_ValueChanged(object sender, EventArgs e) => cam1.camVars.BrightnessValue = trackBarBrightness.Value*10;
         private void trackBarContrast_ValueChanged(object sender, EventArgs e) => cam1.camVars.ContrastValue = trackBarContrast.Value*10;
